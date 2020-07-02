@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    ;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+div#links {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 0;
+    float: left;
+}
+
+div#personalia-bckgrnd {
+    background: transparent url('../Images/achtergrond.jpg');
+    height: 460px;
+    width: 760px;
+    border: 1px white;
+    font-size: 60px;
+}
+
+div#Table {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a {
+    color: #0000FF;
+}
+
+table,
+th,
+td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div#start {
+    text-align: justify;
+    margin-left: 45px;
+    margin-top: 301px;
+    font-size: 15px;
+}

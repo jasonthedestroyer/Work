@@ -1,0 +1,360 @@
+        * {
+            margin: 0;
+        }
+        
+        html,
+        body {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            width: 100%;
+            height: auto;
+        }
+        
+        div#main-content {
+            width: 760px;
+            height: 460px;
+            border: 1px solid black;
+            background-image: url(../Images/achtergrond.jpg)
+        }
+        
+        div#main-content .binnenin {
+            float: left;
+            position: absolute;
+            left: 0%;
+            top: 72px;
+            width: 608px;
+            margin-left: 150px;
+            height: 350px;
+        }
+        
+        div#main-content div#header {
+            background-color: white;
+            border-bottom: 2px solid black;
+            height: 70px;
+            margin-right: 4px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .binnenin div#textbinnenin {
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        
+        div#start {
+            text-align: justify;
+            margin-left: 200px;
+            margin-top: 340px;
+        }
+        
+        .binnenin div#underbinnenin {
+            margin-left: 25px;
+            margin-top: 150px;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif, Times, serif;
+        }
+        
+        .binnenin div#underbinnen {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        
+        .underline {
+            display: block;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 1px;
+            border-color: black;
+            width: 95%;
+        }
+        
+        div#main-content {
+            width: 760px;
+            height: 460px;
+            background: transparent url('../Images/achtergrond.jpg');
+            border: 1px solid black;
+        }
+        
+        div#main-content .binnenin {
+            float: left;
+            position: absolute;
+            left: 0%;
+            top: 72px;
+            width: 608px;
+            margin-left: 150px;
+            height: 350px;
+        }
+        
+        div#main-content div#header {
+            background-color: white;
+            border-bottom: 2px solid black;
+            height: 70px;
+            margin-right: 4px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .binnenin div#textbinnenin {
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        
+        div#start {
+            text-align: justify;
+            margin-left: 50px;
+            margin-top: 340px;
+        }
+        
+        .binnenin div#underbinnenin {
+            margin-left: 25px;
+            margin-top: 150px;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif, Times, serif;
+        }
+        
+        .binnenin div#underbinnen {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        
+        div#underline {
+            display: block;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 1.5px;
+            border-color: black;
+            width: 95%;
+        }
+        
+        Div#main-content div#sidebar {
+            float: left;
+            background-color: black;
+            width: 150px;
+            height: 385px;
+            margin-top: 4px;
+        }
+        
+        div#sidebar div#sidebar-text {
+            margin-top: 8px;
+            text-decoration: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        div#start a {
+            color: #0000FF;
+            text-decoration-line: underline;
+        }
+        
+        h3 {
+            margin-right: 8px;
+            margin-top: 2px;
+            text-align: center;
+            background-repeat: no-repeat;
+            background: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            height: 27px;
+        }
+        
+        div#h4 {
+            font-size: 18px;
+            margin-top: 55px;
+            margin-left: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        div#h7 {
+            font-size: 12px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+        
+        div#h8 {
+            font-size: 12px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#MijnAdres {
+            font-size: 12px;
+            margin-top: 65px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#MijnPostcode {
+            font-size: 12px;
+            margin-top: 1px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#Nederland {
+            font-size: 12px;
+            margin-top: 1px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+        }
+        
+        div#blauw {
+            color: #0000FF;
+            text-decoration-line: underline;
+        }
+        
+        div#personalia-bckgrnd {
+            background: transparent url('../Images/achtergrond.jpg');
+            height: 460px;
+            width: 760px;
+            border: 1px white;
+        }
+        
+        div#font {
+            font-size: 60px;
+        }
+        
+        div#underline-personalia {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 2px;
+            border-color: black;
+            width: 90%;
+        }
+        
+        div#personalia {
+            margin-left: 5%;
+        }
+        
+        div#maintext {
+            margin-left: 7%;
+            padding: 1px;
+            font-size: 19px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#undertext {
+            margin-top: 180px;
+            font-size: 20px;
+            float: right;
+            margin-left: 255px;
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#understripe {
+            margin-top: 220px;
+            display: block;
+            margin-left: auto;
+            margin-right: 45px;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 2px;
+            border-color: black;
+            width: 60%;
+        }
+        
+        img {
+            position: absolute;
+            margin-left: 500px;
+            margin-top: 10px;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .sidebarlinks {
+            margin-left: -65px;
+            margin-right: -17px;
+            margin-top: 2px;
+            text-align: center;
+            background-repeat: no-repeat;
+            background: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            height: 27px;
+            font-weight: normal;
+        }
+        
+        div#main-content2 {
+            width: 760px;
+            height: 460px;
+            background: transparent url('../Images/achtergrond.jpg');
+            border: 1px solid white;
+        }
+        
+        div#start2 {
+            text-align: justify;
+            margin-left: 50px;
+            margin-top: 177px;
+        }
+        
+        div#start3 {
+            text-align: justify;
+            margin-left: 50px;
+            margin-top: 210px;
+        }
+        
+        div#start4 {
+            text-align: justify;
+            margin-left: 50px;
+            margin-top: -20px;
+        }
+        
+        div#start4 a {
+            color: #0000FF;
+            text-decoration-line: underline;
+        }
+        
+        div#start3 a {
+            color: #0000FF;
+            text-decoration-line: underline;
+        }
+        
+        div#start2 a {
+            color: #0000FF;
+            text-decoration-line: underline;
+        }
+        
+        div#underlineonly {
+            text-decoration-line: underline;
+        }
+        
+        div#maintext2 {
+            margin-left: 7%;
+            padding: 1px;
+            font-size: 19px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div#maintext3 {
+            margin-left: 7%;
+            padding: 1px;
+            font-size: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 130px;
+        }
+        
+        div#maintext4 {
+            margin-left: 7%;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            margin-left: 20%;
+        }
+        
+        ul {
+            list-style-type: none;
+        }

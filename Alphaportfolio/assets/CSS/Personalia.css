@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+div#main-content {
+    width: 758px;
+    height: 458px;
+    background: transparent url('../Images/achtergrond.jpg');
+    border: 1px solid black;
+}
+
+div#personalia-bckgrnd {
+    background: transparent url('../Images/achtergrond.jpg');
+    height: 460px;
+    width: 760px;
+    border: 1px white;
+    font-size: 60px;
+}
+
+div#underline-personalia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+    width: 90%;
+}
+
+div#personalia {
+    margin-left: 5%;
+}
+
+.maintext {
+    margin-left: 7%;
+    padding: 1px;
+    font-size: 17px;
+}
+
+div#undertext {
+    margin-top: 180px;
+    font-size: 20px;
+    float: right;
+    margin-left: 255px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#understripe {
+    margin-top: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: 45px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+    width: 60%;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 500px;
+    position: absolute;
+}
+
+div#start {
+    text-align: justify;
+    margin-left: 45px;
+    margin-top: 19px;
+    font-size: 15px;
+}
+
+a {
+    color: #0000FF;
+}

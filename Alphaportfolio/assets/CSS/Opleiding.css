@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+div#SAO {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.kerntaken a {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+div#personalia-bckgrnd {
+    background: transparent url('../Images/achtergrond.jpg');
+    height: 460px;
+    width: 760px;
+    border: 1px white;
+    font-size: 60px;
+}
+
+div#studies {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 0;
+    float: left;
+}
+
+ol {
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+a {
+    color: #0000FF;
+}
+
+div#start {
+    text-align: justify;
+    margin-left: 45px;
+    margin-top: 75px;
+    font-size: 15px;
+}
